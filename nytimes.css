@@ -6,7 +6,7 @@ header, div, ul, li {
 
 header {
 	width: 100%;
-	height: 55px;
+	height: 50px;
 	top: 0px;
 	left: 0px;
 	position: fixed;
@@ -16,13 +16,14 @@ header {
 	font-family: sans-serif;
 	font-size: 12px;
 	font-weight: bold;
+	border-bottom: 1px solid #ccc;
 }
 
 .navigation {
 	float: left;
 	position: absolute;
 	padding: 0;
-	top: 13px;
+	top: 10px;
 	left: 20px;
 }
 
@@ -46,7 +47,7 @@ header img {
 .options {
 	position: absolute;
 	right: 0;
-	top: -7px;
+	top: -12px;
 	padding: 0;
 }
 
@@ -97,6 +98,7 @@ header img {
 h3 {
 	margin: 0;
 	font-size: 14px;
+	font-weight: normal;
 }
 
 .adSpace img {
@@ -167,7 +169,7 @@ h1 {
 
 .sharing {
 	float: left;
-	margin-right: 15px;
+	margin-right: 25px;
 	padding-top: 14px
 }
 
@@ -180,8 +182,8 @@ h1 {
 	list-style-type: none;
 	margin: 0;
 	font-family: Helvetica;
-	font-size: 12px;
-	padding: 7px 15px;
+	font-size: 14px;
+	padding: 11px 15px;
 	color: #666;
 	border: none;
 }
@@ -193,8 +195,117 @@ h1 {
 .story {
 	float: left;
 	width: 70%;
+	font-size: 17px;
+	color: #333;
 }
 
+footer {
+	border-top: 4px double #ccc;
+	margin: 20px 20px 0 20px;
+}
+
+footer img {
+	display: block;
+	width: 18%;
+	margin-bottom: 20px;
+}
+
+footer div {
+	float: left;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+.sections ul {
+	float: left;
+	width: 175px;
+	list-style-type: none;
+	line-height: 24px;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.sections ul:first-of-type {
+	width: 135px;
+	padding-left: 0;
+}
+
+.sections ul:last-of-type {
+	padding-right: 0;
+}
+
+.sections ul li:first-child {
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.subscribe {
+	border-left: 1px solid #ccc;
+	padding-left: 20px;
+	line-height: 24px;
+	font-size: 11px;
+}
+
+.subscribe ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+
+#topSub {
+	line-height: 28px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 0;
+}
+
+.subscribe #title {
+	font-size: 13px;
+	line-height: 28px;
+}
+
+.subscribe ul:last-child {
+	border-top: 1px solid #ccc;
+}
+
+
+.subscribe ul:nth-child(-n+3) {
+	padding: 5px 0;
+}
+
+.navStrip {
+	display: block;
+	width: 100%;
+	font-size: 11px;
+	border-top: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+.navStrip ul {
+	display: inline-block;
+	padding: 0;
+}
+
+.navStrip ul li {
+	display: inline-block;
+	color: #aaa;
+	font-size: 11px;
+	padding: 0 5px;
+}
+
+.navStrip ul li:nth-of-type(n+2) {
+	border-left: 1px solid #ccc;
+}
+
+.footNavLeft {
+	float: left;
+}
+
+.footNavRight {
+	float: right;
+}
 
 .clear {
 	clear: both;
