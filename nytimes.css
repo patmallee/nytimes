@@ -197,6 +197,79 @@ h1 {
 	width: 70%;
 	font-size: 17px;
 	color: #333;
+	margin-bottom: 20px;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 0;
+}
+
+aside {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	width: 128%;
+	position: relative;
+	left: -50px;
+	margin: 20px 0;
+}
+
+h5 {
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+aside p {
+	color: #666;
+	font-size: 15px;
+	margin: 0;
+}
+
+aside img {
+	width: 100%;
+	margin-top: 5px;
+}
+
+iframe {
+	position: relative;
+	left: -20px;
+	margin-top: 25px;
+}
+
+.story .caption {
+	position: relative;
+	left: -20px;
+	margin-bottom: 25px;
+}
+
+.story .photo {
+	margin: 10px 0;
+}
+
+.story .photo .img {
+	width: 100%;
+}
+
+.story .photo .caption {
+	width: 100%;
+	position: static;
+}
+
+.storyEnd {
+	width: 70px;
+	border-top: 1px solid #333;
+	margin: 20px 0;
+}
+
+h6 {
+	color: #777;
+	font-size: 12px;
+	margin: 0;
 }
 
 footer {
